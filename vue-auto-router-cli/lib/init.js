@@ -11,7 +11,7 @@ module.exports = async (name) => {
     const data = await figlet('pyx welcome !');
     log(data);
     log('创建下载:' + name);
-    await clone('github:yinX0412/linxiu', name);
+    await clone('github:yinX0412/js-base', name);
   } catch (err) {
     console.log(err);
   }
